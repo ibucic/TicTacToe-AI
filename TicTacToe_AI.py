@@ -45,7 +45,7 @@ def turn_text(window, board, font, player, game_winner, color=(255, 255, 255)):
         window.blit(label, (sx, sy))
     else:
         if player == 'circle':
-            label = font.render('Player wins', 1, color)
+            label = font.render('Human wins', 1, color)
         else:
             label = font.render('AI wins', 1, color)
         window.blit(label, (sx, sy))
